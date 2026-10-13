@@ -1,0 +1,48 @@
+p.text-background span {
+    font-style: italic;
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+
+div .text-background span {
+    background-color: yellow;
+}
+
+span span {
+    background-color: gray;
+     text-decoration: line-through;
+}
+
+ol span span {
+    font-size: 18px;
+    text-transform: uppercase;
+}
+
+section > p{
+    text-shadow: 3px 3px 5px grey;
+}
+
+li > ul {
+  list-style-image: url('path-to-your-image.png');
+}
+
+div > p.text-background {
+    word-spacing: 50;
+}
+
+.text-bold > p {
+    font-weight: bold;
+}
+
+.text-bold > section > p {
+    line-height: 45;
+}
+
+img + p {
+    background: brown;
+}
+
+section ~ p {
+    color: red;
+}
