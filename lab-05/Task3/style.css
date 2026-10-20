@@ -1,0 +1,156 @@
+body {
+    background-color: #121212;
+    color: #e0e0e0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+header {
+    width: 100%;
+    max-width: 650px;
+    margin-bottom: 20px;
+}
+
+header a {
+    color: #ccff00; 
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+
+
+main {
+    width: 100%;
+    max-width: 650px;
+}
+
+form {
+    background-color: #1e1e1e;
+    padding: 25px;
+    border: 2px solid #ccff00;
+    box-shadow: 0 0 15px rgba(204, 255, 0, 0.2);
+}
+
+fieldset {
+    border: 1px solid #333333;
+    background-color: #181818;
+    padding: 15px 20px 20px 20px;
+    margin-bottom: 20px;
+}
+
+legend {
+    color: #ccff00;
+    font-weight: bold;
+    font-size: 18px;
+    padding: 0 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.field {
+    margin-top: 15px;
+}
+
+label, .group-title {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: 600;
+    color: #f0f0f0;
+}
+
+.group-title {
+    color: #ccff00;
+    margin-top: 10px;
+}
+
+input[type="text"],
+input[type="date"],
+input[type="email"],
+input[type="tel"],
+input[type="password"],
+select,
+textarea {
+    width: 100%;
+    padding: 10px 12px;
+    background-color: #2a2a2a;
+    border: 1px solid #444444;
+    color: #ffffff;
+    font-size: 15px;
+    outline: none;
+    transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+input:focus,
+select:focus,
+textarea:focus {
+    border-color: #ccff00;
+    box-shadow: 0 0 8px rgba(204, 255, 0, 0.5);
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    accent-color: #ccff00;
+    margin-right: 6px;
+    margin-left: 2px;
+    cursor: pointer;
+}
+
+fieldset label input[type="radio"],
+fieldset label input[type="checkbox"] {
+    display: inline-block;
+}
+
+fieldset .field > label {
+    margin-right: 15px;
+}
+
+/* Завантаження файлів */
+input[type="file"] {
+    color: #bbbbbb;
+    font-size: 14px;
+}
+
+input[type="file"]::file-selector-button {
+    background-color: #ccff00;
+    color: #000000;
+    border: none;
+    padding: 8px 14px;
+    font-weight: bold;
+    cursor: pointer;
+    margin-right: 10px;
+    transition: background-color 0.2s;
+}
+
+
+.buttons {
+    display: flex;
+    gap: 15px;
+    margin-top: 10px;
+}
+
+button {
+    flex: 1;
+    padding: 12px 20px;
+    font-size: 16px;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+    border: 2px solid #ccff00;
+    transition: all 0.2s;
+}
+
+button[type="submit"] {
+    background-color: #ccff00;
+    color: #000000;
+}
+
+
+button[type="reset"] {
+    background-color: transparent;
+    color: #ccff00;
+}
+
