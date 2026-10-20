@@ -1,0 +1,78 @@
+body {
+    padding: 20px;
+    background-color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+table {
+    width: 600px;
+    border-collapse: collapse;
+    font-family: "Times New Roman", Times, serif;
+    text-align: center;
+}
+
+th,
+td {
+    padding: 0 10px;
+    height: 70px;
+    font-size: 20px;
+}
+
+/* Шапка таблиці */
+thead th {
+    height: 60px;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 1.3;
+    color: #2b2b2b;
+}
+
+/* Перехід кольорів шапки: від найсвітлішого жовтого до найтемнішого гірчично-жовтого */
+thead th:nth-child(1) {
+    background-color: #fffde7; /* Дуже світлий лимонний */
+    font-style: italic;
+    font-size: 16px;
+}
+
+thead th:nth-child(2) {
+    background-color: #fff59d; /* Світло-жовтий */
+}
+
+thead th:nth-child(3) {
+    background-color: #ffee58; /* Яскраво-жовтий */
+}
+
+thead th:nth-child(4) {
+    background-color: #fdd835; /* Насичений жовтий */
+}
+
+thead th:nth-child(5) {
+    background-color: #f57f17; /* Темний жовто-оранжевий (для контрасту тексту білого) */
+    color: #ffffff;
+}
+
+/* Перший стовпець тіла таблиці (назви рядків) - темна гірчично-жовта база */
+tbody th {
+    border: 2px solid #ffffff;
+    background-color: #fbc02d;
+    color: #1a1a1a;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+/* Комірки з даними (+ / -) */
+tbody td {
+    border: 2px solid #ffffff;
+    color: #2b2b2b;
+    font-weight: bold;
+}
+
+/* Чергування рядків у пастельних жовтих відтінках */
+tbody tr:nth-child(odd) td {
+    background-color: #fff9c4; /* Пастельний жовтий */
+}
+
+tbody tr:nth-child(even) td {
+    background-color: #fffde7; /* Дуже ніжний жовтий */
+}
