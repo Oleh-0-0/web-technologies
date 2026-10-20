@@ -1,0 +1,178 @@
+body {
+    margin: 0;
+    padding: 30px 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 1.5;
+    color: #F4FF4D;
+    background-color: #0a0a05;
+    background-image: url('img/bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed; 
+}
+
+
+.container {
+    box-sizing: border-box;
+    max-width: 900px;
+    min-width: 320px;
+    margin: 0 auto; 
+    padding: 20px;
+    background-color: rgba(0, 0, 0, 0.82); 
+    border: 2px solid #FFEE00;
+}
+
+h1 {
+    margin: 0;
+    font-size: 42px;
+    color: #FFEE00;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.subtitle {
+    margin: 5px 0 20px;
+    color: #D4FF00;
+    font-weight: bold;
+}
+
+h2 {
+    margin: 30px 0 12px;
+    padding-bottom: 6px;
+    border-bottom: 2px dashed #D4FF00;
+    color: #FFEE00;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+
+
+
+
+
+.tags div {
+    display: inline;
+    width: 200px;   
+    height: 100px;  
+    padding: 4px 10px;
+    background-color: #FFEE00;
+    color: #000000;
+    font-weight: bold;
+}
+
+.tags .note {
+    margin: 20px 0 10px;
+}
+
+
+
+
+.tags span {
+    display: block;
+    width: 150px;
+    margin-bottom: 8px;
+    padding: 6px 10px;
+    background-color: #D4FF00;
+    color: #000000;
+    font-weight: bold;
+    box-sizing: border-box;
+}
+
+
+
+
+
+
+
+
+
+
+
+.repeat div {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 220px;
+    height: 200px;
+    margin: 0 10px 10px 0;
+    border: 2px solid #FFEE00;
+    background-color: #000000;
+    background-image: url('img/icon.png'); 
+}
+
+.repeat .repeat-x { background-repeat: repeat-x; }
+.repeat .repeat-y { background-repeat: repeat-y; }
+.repeat .space    { background-repeat: space; }
+.repeat .round    { background-repeat: round; }
+
+.label {
+    display: inline-block;
+    padding: 2px 8px;
+    background-color: #000000;
+    color: #FFEE00;
+    font-weight: bold;
+    border: 1px solid #FFEE00;
+}
+
+
+
+
+
+
+
+
+
+
+.size div {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 300px;
+    height: 200px;
+    margin: 0 15px 10px 0;
+    border: 2px solid #FFEE00;
+    background-color: #000000;
+    background-image: url('img/pic.png');
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.size .contain { background-size: contain; } 
+.size .cover   { background-size: cover; }   
+
+
+
+
+
+
+
+
+
+
+
+.attachment div {
+    display: inline-block;
+    vertical-align: top;
+    box-sizing: border-box;
+    width: 380px;
+    max-width: 100%;
+    max-height: 150px;
+    margin: 0 15px 10px 0;
+    padding: 8px;
+    overflow: auto;
+    border: 2px solid #FFEE00;
+    background-color: #000000;
+    background-image: url('img/icon.png');
+    background-repeat: repeat;
+    color: #FFFFFF;
+    text-shadow: 0 0 4px #000000, 0 0 4px #000000;
+}
+
+.attachment strong {
+    color: #FFEE00;
+}
+
+.attachment .scroll-bg { background-attachment: scroll; }
+.attachment .local-bg  { background-attachment: local; }
+
